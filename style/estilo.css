@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DECLARANDO UMA VARIAVEL NO CSS */
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+/* SEPARANDO OS ITENS DO CABEÇALHO */
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin: 5px;
+    color: white;
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+header nav a {
+    color: #AAA;
+    font-size: 15px;
+    margin-right: 10px;
+}
+header nav a:hover {
+    color: #b13030;
+}
