@@ -13,7 +13,7 @@
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-
+    color: white;
 }
 
 a {
@@ -36,9 +36,33 @@ header .logo {
 
 header nav a {
     color: #AAA;
-    font-size: 15px;
+    font-size: 18px;
     margin-right: 10px;
 }
 header nav a:hover {
     color: #b13030;
+}
+/* JOGO PRINCIPAL */
+.jogo-principal {
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/cat-mario1.jpg);
+
+    /* modificando o tamanho da imagem */
+    height: 400px;
+    background-size: cover;
+
+    /* trabalhando com os botões */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.jogo-principal .descricao{
+    margin-bottom: 30px;
+}
+
+.jogo-principal .titulo {
+    font-size: 40px;
+
 }
