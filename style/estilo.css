@@ -31,7 +31,7 @@ header .logo {
     margin: 5px;
     color: white;
     font-family: 'Arial Black', Times;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 header nav a {
@@ -45,7 +45,7 @@ header nav a:hover {
 /* JOGO PRINCIPAL */
 .jogo-principal {
     font-size: 14px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/cat-mario1.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/cyberpunk.jpg);
 
     /* modificando o tamanho da imagem */
     height: 400px;
@@ -59,10 +59,50 @@ header nav a:hover {
 }
 
 .jogo-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 30px;
+    font-size: 16px;
+
+
 }
 
 .jogo-principal .titulo {
+    margin-top: 15%;
     font-size: 40px;
+    font-family: monospace;
+    
 
 }
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+    padding: 14px 28px; /*Espaçamento interno*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: var(--vermelho);
+    color: var(--preto);
+
+}
+
+/* COLOCANDO ESPAÇAMENTO NOS ICONES DOS BOTÕES */
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    /*Recua 20px para a esquerda os itens pertecentes a classe container*/
+    margin-left: 20px; 
+}
+
+.jogo-principal .container {
+    width: 70%; /*Diminua o tamanho da tela e descubra o que acontece*/
+}
+

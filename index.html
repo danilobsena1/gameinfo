@@ -3,9 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>GAME INFO</title>
+        <title>Game Info</title>
         <link rel="stylesheet" type="text/css" href="style/estilo.css"/>
         
+        <!-- owl css -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     </head>
     <body>
         <!-- CABEÇALHO -->
@@ -23,26 +27,65 @@
         <main>
             <div class="jogo-principal">
                 <div class="container">
-                    <h3 class="titulo">Cat Mario</h3>
+                    <h3 class="titulo">CyberPunk</h3>
                     <p class="descricao">
-                        Syobon Action, também conhecido não oficialmente como Cat Mario,<br/>
-                        é um jogo eletrônico de plataforma japonês em 2D lançado no ano de 2007 no Japão.<br/>
-                        Com um alto nível de dificuldade, é uma paródia de Super Mario Bros.<br/> 
+                        Cyberpunk 2077 é uma história de ação e aventura de mundo aberto ambientada em<br/> 	  				Night City, uma megalópole obcecada por poder, glamour e biomodificações.<br/>
+                        Você joga como V, um mercenário fora da lei atrás de um implante único que<br/> 			carrega a chave da imortalidade.<br/>
                     </p>
                     <!-- BOTÕES -->
                     <div class="botoes">
                         <button  role="button" class="botao">
-                            ASSISTIR AGORA
+                            <i class="fab fa-youtube"></i>
+                                ASSISTIR AGORA
                         </button>
                         <button role="button" class="botao">
-                            MAIS INFORMAÇÕES
+                            <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
                         </button>
                     </div>
                 </div>
-                
-                
+                   
             </div>
         </main>
+        
+        <!-- CRIANDO O CARROSEL -->
+        <div class="carrosel-games">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/black.jpg" alt="Capa do jogo Black" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/call of duty.jpg" alt="Capa do jogo Call of Duty" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/Crysis3.jpg" alt="Capa do jogo Crysis 3" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/dark souls2.jpg" alt="Capa do jogo Dark Souls 2" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/farcry.jpg" alt="Capa do jogo Far Cry" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/god of war.jpg" alt="Capa do jogo God of War" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/gta 5.jpg" alt="Capa do jogo GTA 5" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-jogo" src="recursos/img/the witcher.jpg" alt="Capa do jogo The Witcher" srcset="">
+                </div>
+                
 
+        </div>
+
+        </div>
+
+
+
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/setup.js"></script>
     </body>
 </html>
