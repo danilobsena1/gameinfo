@@ -46,6 +46,7 @@ header nav a:hover {
 .jogo-principal {
     font-size: 14px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/cyberpunk.jpg);
+    /* imagem retirado de https://wall.alphacoders.com/wallpaper.php?i=988090&w=1920&h=1080&type=crop&lang=Portuguese */
 
     /* modificando o tamanho da imagem */
     height: 400px;
@@ -87,7 +88,8 @@ header nav a:hover {
 }
 
 .botao:hover {
-    background-color: var(--vermelho);
+    /* background-color: var(--vermelho); */
+    background-color: yellow;
     color: var(--preto);
 
 }
@@ -106,3 +108,14 @@ header nav a:hover {
     width: 70%; /*Diminua o tamanho da tela e descubra o que acontece*/
 }
 
+/* definido o tamanho das imagens no carousel */
+.box-jogo {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* COLOCANDO ESPAÇAMENTO ENTRE OS ITENS DO CAROUSEL */
+.carrosel-games {
+    margin-top: 5px;
+}
