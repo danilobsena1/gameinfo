@@ -45,7 +45,7 @@ header nav a:hover {
 /* JOGO PRINCIPAL */
 .jogo-principal {
     font-size: 14px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/cyberpunk.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/recursos/img/acao/cyberpunk.jpg);
     /* imagem retirado de https://wall.alphacoders.com/wallpaper.php?i=988090&w=1920&h=1080&type=crop&lang=Portuguese */
 
     /* modificando o tamanho da imagem */
@@ -78,7 +78,7 @@ header nav a:hover {
 .botao {
     background-color: rgba(0,0,0,.50);
     border: none;
-    color: white;
+    color: red; /*Cor dos icones*/
     padding: 14px 28px; /*Espaçamento interno*/
     margin-right: 15px;
     font-size: 12px;

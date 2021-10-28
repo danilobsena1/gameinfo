@@ -1,9 +1,9 @@
 // SETUP  da demo Basic do owl.Carousel.js
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
-    nav:true, //Ativa duas setas para movimentação das imagens.
+    nav:false, //Ativa duas setas para movimentação das imagens.
     responsive:{
         0:{
             items:1
