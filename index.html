@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Game Info</title>
         <link rel="stylesheet" type="text/css" href="style/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="style/mouse.css"/>
         
         <!-- owl css -->
         <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -12,6 +13,13 @@
 
     </head>
     <body>
+
+        <!-- Script responsavel por exibir mensagem ao passar o mouse -->
+        <script type="text/javascript" src="js/wz_tooltip.js"></script>
+        <!-- Basta apenas você adicionar:
+            onmouseover = "Tip('Mensagem')";
+            onmouseout = "UnTip()"; -->
+
         <!-- CABEÇALHO -->
         <header>
             <div class="container">
@@ -54,7 +62,8 @@
             <h3>GAMES DE AÇÃO:</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <img class="box-jogo" src="recursos/img/acao/black.jpg" alt="Capa do jogo Black" srcset="">
+                    <img class="box-jogo" src="recursos/img/acao/black.jpg" 
+                    onmouseover="Tip('Black é um videogame de tiro em primeira pessoa desenvolvido pela Criterion Games e publicado pela Electronic Arts para PlayStation 2 e Xbox. O jogo é notável por sua ação altamente estilizada, bem como por sua qualidade de som e foco em efeitos destrutivos durante o jogo.')" onmouseout="UnTip()" alt="Capa do jogo Black" srcset="">
                 </div>
                 <div class="item">
                     <img class="box-jogo" src="recursos/img/acao/call of duty.jpg" alt="Capa do jogo Call of Duty" srcset="">
